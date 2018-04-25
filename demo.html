@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+    显示文字：<input type="text" id="title" placeholder="加载中..." value="加载中..." >
+    加载时间：<input type="text" id="duration" placeholder="loading显示时间" value="1500" >
+    图标类型：<label><input type="radio" name="icon" value="success">success</label>
+    <label><input type="radio" name="icon" value="error">error</label>
+    <label><input type="radio" name="icon" value="loading" checked>loading</label>
+    <button onclick="showToast()">显示loading</button>
+    <button onclick="hideLoading()">隐藏loading</button>
+</body>
+<script src="http://admin.wdzs.cn/wwwroot/js/jquery-2.2.4.min.js"></script>
+<script src="jquery.toast.js"></script>
+<script>
+    function showToast(){
+      var title = $("#title").val();
+      var icon = $('input[name="icon"]:checked').val();
+      var duration = $("#duration").val()*1;
+      $.Toast.showToast({title: title,duration: duration, icon:icon,image: ''});
+    }
+    function hideLoading(){
+      $.Toast.hideToast();
+    }
+</script>
+</html>

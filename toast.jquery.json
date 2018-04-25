@@ -1,0 +1,22 @@
+{
+  "name": "toast",
+  "title": "jQuery Toast",
+  "description": "jQuery plugin for show and hide Toast",
+  "keywords": [
+    "toast",
+    "jQuery Plugin"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "uaison",
+    "url": "https://github.com/uaison"
+  },
+
+  "bugs": "https://github.com/jquery/jquery-color/issues",
+  "homepage": "https://github.com/jquery/jquery-color",
+  "docs": "https://github.com/jquery/jquery-color",
+  "download": "http://code.jquery.com/#color",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
