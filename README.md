@@ -3,7 +3,8 @@ jQuery Toast Plugin
 
 # Usage
 
-`<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+```
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="jquery.toast.js"></script>
  <script>
     // show toast
@@ -17,4 +18,4 @@ jQuery Toast Plugin
     // hide toast
     $.Toast.hideToast();
  </script>
-`
+```
