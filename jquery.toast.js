@@ -31,6 +31,9 @@
             $(".toast-icon").addClass('error');
             $(".toast-icon").html("&times;");
             break;
+          case "none":
+            $(".toast-icon").remove();
+            break;
           default:
             $(".toast-icon").addClass('loading');
             break;
