@@ -1,5 +1,5 @@
 # jquery.toast
-jQuery Toast Plugin
+jQuery Toast Plugin [查看demo](https://uaison.github.io/jquery-toast/demo.html)
 
 # Usage
 
